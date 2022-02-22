@@ -1,8 +1,6 @@
-var vel = 50
-console.log(`A velocida do seu carro é ${vel}km/h`)
-
-if (vel > 60) {
-    console.log(`Você ultrapassou a velocidade permitida. Multado`)
+var vel = 60
+console.log(`A velocidade do seu carro é ${vel}km/h`)
+if (vel > 60 ) {
+    console.log(`Você ultrapassou a velocidade permitida. MULTADO!`)
 }
-
-console.log (`Dirija sempre usando cinto de segurança!`)
+console.log(`Dirija sempre usando o cinto de segurança!`)
